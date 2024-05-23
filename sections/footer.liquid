@@ -101,9 +101,9 @@
                         {%- endfor -%}
                       </ul>
                     {%- endif -%}
-                  {%- when 'footer_address_wi' -%}
+                  {%- when 'footer_address_widget' -%}
                     {%- if block.settings.menu != blank -%}
-                      <ul class='footer-block__details-content list-unstyled'>
+                      <ul class='footer-block__address'>
                         {%- for link in block.settings.menu.links -%}
                           <li>
                             <a
