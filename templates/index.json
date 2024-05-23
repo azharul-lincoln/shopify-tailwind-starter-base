@@ -1,75 +1,28 @@
 {
   "sections": {
-    "slideshow_mkrae6": {
-      "type": "slideshow",
+    "swiper_slider_dwnGgH": {
+      "type": "swiper-slider",
       "blocks": {
-        "slide_rrejNK": {
+        "slide_bQpfY7": {
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/SalonPro_Web_banners_2160_x_720_px_13.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
+            "caption": "This is a caption."
           }
         },
-        "slide_b4Td74": {
+        "slide_4dexPi": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_3jc399": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
+            "image": "shopify:\/\/shop_images\/SalonPro_Web_banners_2160_x_720_px_15.png",
+            "caption": "This is a caption."
           }
         }
       },
       "block_order": [
-        "slide_rrejNK",
-        "slide_b4Td74",
-        "slide_3jc399"
+        "slide_bQpfY7",
+        "slide_4dexPi"
       ],
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "dots",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
       }
     },
     "featured_collection": {
@@ -99,36 +52,10 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
-    },
-    "swiper_slider_dwnGgH": {
-      "type": "swiper-slider",
-      "blocks": {
-        "slide_bQpfY7": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SalonPro_Web_banners_2160_A_720_px_8_fd7d85a6-6fb0-4883-a66a-77d7af52e998.png",
-            "caption": "This is a caption."
-          }
-        },
-        "slide_4dexPi": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SalonPro_Web_banners_2160_x_720_px_15.png",
-            "caption": "This is a caption."
-          }
-        }
-      },
-      "block_order": [
-        "slide_bQpfY7",
-        "slide_4dexPi"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
-    "slideshow_mkrae6",
-    "featured_collection",
-    "swiper_slider_dwnGgH"
+    "swiper_slider_dwnGgH",
+    "featured_collection"
   ]
 }
