@@ -56,7 +56,7 @@
         "logo_position": "middle-left",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
-        "sticky_header_type": "on-scroll-up",
+        "sticky_header_type": "none",
         "show_line_separator": true,
         "color_scheme": "scheme-cade5739-6521-4120-922f-bacf29e6c4bf",
         "menu_color_scheme": "scheme-1",
