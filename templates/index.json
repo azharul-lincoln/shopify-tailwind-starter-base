@@ -99,10 +99,36 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "swiper_slider_dwnGgH": {
+      "type": "swiper-slider",
+      "blocks": {
+        "slide_bQpfY7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SalonPro_Web_banners_2160_A_720_px_8_fd7d85a6-6fb0-4883-a66a-77d7af52e998.png",
+            "caption": "This is a caption."
+          }
+        },
+        "slide_4dexPi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SalonPro_Web_banners_2160_x_720_px_15.png",
+            "caption": "This is a caption."
+          }
+        }
+      },
+      "block_order": [
+        "slide_bQpfY7",
+        "slide_4dexPi"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "slideshow_mkrae6",
-    "featured_collection"
+    "featured_collection",
+    "swiper_slider_dwnGgH"
   ]
 }
