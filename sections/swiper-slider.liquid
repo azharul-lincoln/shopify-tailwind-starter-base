@@ -51,7 +51,7 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    const swiper = new Swiper('.swiper-container', {
+    new Swiper('.swiper-container', {
       loop: true,
       pagination: {
         el: '.swiper-pagination',
@@ -62,9 +62,6 @@
         prevEl: '.swiper-button-prev',
       },
     });
-
-    // Debugging output to check if Swiper is initialized correctly
-    console.log(swiper);
   });
 </script>
 
@@ -96,34 +93,5 @@
     display: block;
     width: 100%;
     height: auto;
-  }
-  .swiper-pagination {
-    position: absolute;
-    text-align: center;
-    transition: 0.3s opacity;
-    transform: translate3d(0, 0, 0);
-    z-index: 10;
-  }
-  .swiper-button-next,
-  .swiper-button-prev {
-    color: #000;
-    position: absolute;
-    top: 50%;
-    width: calc(var(--swiper-navigation-size) / 44 * 27);
-    height: var(--swiper-navigation-size);
-    margin-top: calc(0px - var(--swiper-navigation-size) / 2);
-    z-index: 10;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .swiper-button-next {
-    right: 10px;
-    left: auto;
-  }
-  .swiper-button-prev {
-    left: 10px;
-    right: auto;
   }
 </style>
