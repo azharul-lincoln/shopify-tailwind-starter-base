@@ -8,19 +8,43 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "Fast Nationwide Delivery",
+            "link": ""
+          }
+        },
+        "announcement_bBpy4m": {
+          "type": "announcement",
+          "settings": {
+            "text": "100% Satisfaction Guarantee",
+            "link": ""
+          }
+        },
+        "announcement_wT9aLT": {
+          "type": "announcement",
+          "settings": {
+            "text": "Top-Rated Customer Service",
+            "link": ""
+          }
+        },
+        "announcement_kft7Ne": {
+          "type": "announcement",
+          "settings": {
+            "text": "1 Year Limited Warranty",
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_bBpy4m",
+        "announcement_wT9aLT",
+        "announcement_kft7Ne"
       ],
       "settings": {
         "color_scheme": "scheme-aad09478-aeca-473f-a60b-2e491820f8d6",
         "show_line_separator": true,
-        "show_social": false,
-        "auto_rotate": false,
+        "show_social": true,
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "enable_country_selector": false,
         "enable_language_selector": false
