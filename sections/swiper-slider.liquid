@@ -51,7 +51,7 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    new Swiper('.swiper-container', {
+    const swiper = new Swiper('.swiper-container', {
       loop: true,
       pagination: {
         el: '.swiper-pagination',
@@ -62,6 +62,9 @@
         prevEl: '.swiper-button-prev',
       },
     });
+
+    // Debugging output to check if Swiper is initialized correctly
+    console.log(swiper);
   });
 </script>
 
