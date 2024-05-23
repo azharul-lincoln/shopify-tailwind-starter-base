@@ -9,18 +9,10 @@
             "image": "shopify:\/\/shop_images\/SalonPro_Web_banners_2160_x_720_px_13.png",
             "caption": "This is a caption."
           }
-        },
-        "slide_4dexPi": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SalonPro_Web_banners_2160_x_720_px_15.png",
-            "caption": "This is a caption."
-          }
         }
       },
       "block_order": [
-        "slide_bQpfY7",
-        "slide_4dexPi"
+        "slide_bQpfY7"
       ],
       "settings": {
       }
