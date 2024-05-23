@@ -39,7 +39,6 @@
   ]
 }
 {% endschema %}
-
 <div class='swiper-container'>
   <div class='swiper-wrapper'>
     {% for block in section.blocks %}
@@ -49,8 +48,12 @@
       </div>
     {% endfor %}
   </div>
-  <!-- Add Pagination -->
-  <div class='swiper-pagination'></div>
+
+  {% if section.settings.show_pagination %}
+    <!-- Add Pagination -->
+    <div class='swiper-pagination'></div>
+  {% endif %}
+
   <!-- Add Navigation -->
   <div class='swiper-button-next'></div>
   <div class='swiper-button-prev'></div>
@@ -58,17 +61,22 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    new Swiper('.swiper-container', {
+    var swiperOptions = {
       loop: true,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
-      },
-    });
+      }
+    };
+
+    {% if section.settings.show_pagination %}
+      swiperOptions.pagination = {
+        el: '.swiper-pagination',
+        clickable: true,
+      };
+    {% endif %}
+
+    new Swiper('.swiper-container', swiperOptions);
   });
 </script>
 
