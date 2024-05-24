@@ -656,6 +656,10 @@ video {
   isolation: isolate;
 }
 
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
 .block {
   display: block;
 }
