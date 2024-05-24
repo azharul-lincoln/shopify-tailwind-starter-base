@@ -652,6 +652,10 @@ video {
   position: sticky;
 }
 
+.top-0 {
+  top: 0px;
+}
+
 .isolate {
   isolation: isolate;
 }
