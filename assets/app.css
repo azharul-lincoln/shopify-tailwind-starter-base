@@ -601,6 +601,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.tw-rounded-md {
+  border-radius: 0.375rem;
+}
+
 .tw-bg-green-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(134 239 172 / var(--tw-bg-opacity));
