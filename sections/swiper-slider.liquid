@@ -43,18 +43,14 @@
   <div class='swiper-wrapper'>
     {% for block in section.blocks %}
       <div class='swiper-slide'>
-        {% comment %} <div class='slider-image-container'> {% endcomment %}
         <a class='slider-anchor-tag' href='/collection/all'>
-          {% comment %} <div class='slider-image-container2'> {% endcomment %}
-            <img
-              width='100%'
-              height='auto'
-              src='{{ block.settings.image | img_url: 'master' }}'
-              alt='{{ block.settings.caption }}'
-            >
-          {% comment %} </div> {% endcomment %}
+          <img
+            width='100%'
+            height='auto'
+            src='{{ block.settings.image | img_url: 'master' }}'
+            alt='{{ block.settings.caption }}'
+          >
         </a>
-   
       </div>
     {% endfor %}
   </div>
@@ -127,9 +123,8 @@
     height: auto; */
   }
 
-
   .slider-anchor-tag {
-    display: block ;
-    width: 100% ;
+    display: block;
+    width: 100%;
   }
 </style>
