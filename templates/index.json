@@ -121,6 +121,8 @@
         "testimonial_9tWJgg": {
           "type": "testimonial",
           "settings": {
+            "customer_name": "Jon Doe",
+            "youtube_video": "",
             "star_rating": 5,
             "title": "<p>Earned its worth in less than a month!<\/p><p>\"I bought a matrix color machine 25 yrs ago used at $5000.00. It took a up a lot of space but worked until it died last year. A friend recommended the orbiting halo to me and it took about two weeks to get here, but it earned its worth in less than a month. Took my friend to a fancy dinner for her recommendation and I salute you for a great product. Thank you.\"<\/p>",
             "link_label": "",
@@ -130,6 +132,8 @@
         "testimonial_UyDjJr": {
           "type": "testimonial",
           "settings": {
+            "customer_name": "Jon Doe",
+            "youtube_video": "",
             "star_rating": 5,
             "title": "<p>Best product ever! Highly recommend.<\/p>",
             "link_label": "",
@@ -139,6 +143,8 @@
         "testimonial_nYfNPU": {
           "type": "testimonial",
           "settings": {
+            "customer_name": "Jon Doe",
+            "youtube_video": "",
             "star_rating": 5,
             "title": "<p>Best product ever! Highly recommend.<\/p>",
             "link_label": "",
@@ -148,6 +154,8 @@
         "testimonial_rtTYrr": {
           "type": "testimonial",
           "settings": {
+            "customer_name": "Jon Doe",
+            "youtube_video": "",
             "star_rating": 4,
             "title": "<p>Best product ever! Highly recommend.<\/p>",
             "link_label": "",
@@ -157,6 +165,7 @@
         "testimonial_MrkQxJ": {
           "type": "testimonial",
           "settings": {
+            "customer_name": "Jon Doe",
             "youtube_video": "",
             "star_rating": 5,
             "title": "<p>Best product ever! Highly recommend.<\/p>",
@@ -167,6 +176,7 @@
         "testimonial_bteHat": {
           "type": "testimonial",
           "settings": {
+            "customer_name": "Jon Doe",
             "youtube_video": "",
             "star_rating": 5,
             "title": "<p>Best product ever! Highly recommend.<\/p>",
@@ -177,6 +187,7 @@
         "testimonial_eNgWMP": {
           "type": "testimonial",
           "settings": {
+            "customer_name": "Jon Doe",
             "youtube_video": "",
             "star_rating": 5,
             "title": "<p>Best product ever! Highly recommend.<\/p>",
@@ -187,6 +198,7 @@
         "testimonial_ry7kBU": {
           "type": "testimonial",
           "settings": {
+            "customer_name": "Jon Doe",
             "youtube_video": "",
             "star_rating": 5,
             "title": "<p>Best product ever! Highly recommend.<\/p>",
@@ -207,16 +219,16 @@
       ],
       "settings": {
         "title": "Hear From Our Satisfied Customers",
-        "per_row": 4,
+        "per_row": 3,
         "video_style": "control_bar",
         "desktop_display": "grid",
-        "mobile_display": "scroll",
-        "text_size": 100,
+        "mobile_display": "grid",
+        "text_size": 120,
         "heading_color": "#121212",
         "text_color": "#242833",
         "star_color": "#b5d642",
         "play_button_color": "#b5d642",
-        "border_color": "#aeb2a0",
+        "border_color": "#dedede",
         "border_width": 1,
         "border_radius": 4,
         "base_width": 95,
