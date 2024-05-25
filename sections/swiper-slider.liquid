@@ -43,13 +43,13 @@
   <div class='swiper-wrapper'>
     {% for block in section.blocks %}
       <div class='swiper-slide'>
-        <a href="/"></a>
-        <img
-          width='100%'
-          height='auto'
-          src='{{ block.settings.image | img_url: 'master' }}'
-          alt='{{ block.settings.caption }}'
-        >
+        <a href='/collection/all'>
+          <img
+            width='100%'
+            height='auto'
+            src='{{ block.settings.image | img_url: 'master' }}'
+            alt='{{ block.settings.caption }}'
+        ></a>
       </div>
     {% endfor %}
   </div>
@@ -91,7 +91,7 @@
     height: 100%;
     position: relative;
   }
-  .swiper div:empty{
+  .swiper div:empty {
     display: block;
   }
   /* .swiper-button-next{
