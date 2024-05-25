@@ -114,11 +114,122 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "testimonial_AGhJd7": {
+      "type": "testimonial",
+      "blocks": {
+        "testimonial_9tWJgg": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "title": "<p>Earned its worth in less than a month!<\/p><p>\"I bought a matrix color machine 25 yrs ago used at $5000.00. It took a up a lot of space but worked until it died last year. A friend recommended the orbiting halo to me and it took about two weeks to get here, but it earned its worth in less than a month. Took my friend to a fancy dinner for her recommendation and I salute you for a great product. Thank you.\"<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "testimonial_UyDjJr": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "title": "<p>Best product ever! Highly recommend.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "testimonial_nYfNPU": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "title": "<p>Best product ever! Highly recommend.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "testimonial_rtTYrr": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 4,
+            "title": "<p>Best product ever! Highly recommend.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "testimonial_MrkQxJ": {
+          "type": "testimonial",
+          "settings": {
+            "youtube_video": "",
+            "star_rating": 5,
+            "title": "<p>Best product ever! Highly recommend.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "testimonial_bteHat": {
+          "type": "testimonial",
+          "settings": {
+            "youtube_video": "",
+            "star_rating": 5,
+            "title": "<p>Best product ever! Highly recommend.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "testimonial_eNgWMP": {
+          "type": "testimonial",
+          "settings": {
+            "youtube_video": "",
+            "star_rating": 5,
+            "title": "<p>Best product ever! Highly recommend.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "testimonial_ry7kBU": {
+          "type": "testimonial",
+          "settings": {
+            "youtube_video": "",
+            "star_rating": 5,
+            "title": "<p>Best product ever! Highly recommend.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_9tWJgg",
+        "testimonial_UyDjJr",
+        "testimonial_nYfNPU",
+        "testimonial_rtTYrr",
+        "testimonial_MrkQxJ",
+        "testimonial_bteHat",
+        "testimonial_eNgWMP",
+        "testimonial_ry7kBU"
+      ],
+      "settings": {
+        "title": "Hear From Our Satisfied Customers",
+        "per_row": 4,
+        "video_style": "control_bar",
+        "desktop_display": "grid",
+        "mobile_display": "scroll",
+        "text_size": 100,
+        "heading_color": "#121212",
+        "text_color": "#242833",
+        "star_color": "#b5d642",
+        "play_button_color": "#b5d642",
+        "border_color": "#aeb2a0",
+        "border_width": 1,
+        "border_radius": 4,
+        "base_width": 95,
+        "max_width": "",
+        "inner_padding": 40,
+        "outer_margin": 0
+      }
     }
   },
   "order": [
     "swiper_slider_dwnGgH",
     "collection_list_UgABY9",
-    "featured_collection_bqEGTX"
+    "featured_collection_bqEGTX",
+    "testimonial_AGhJd7"
   ]
 }
