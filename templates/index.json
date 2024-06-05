@@ -205,6 +205,17 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "testimonial_z47VYt": {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "Jon Doe",
+            "youtube_video": "",
+            "star_rating": 5,
+            "title": "<p>Game changer<br\/><br\/>\"Absolutely the best. It cuts down on processing time on coloring. It is quiet and very easy to use. My clients think it's the neatest thing ever. I highly recommend.\"<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -215,7 +226,8 @@
         "testimonial_MrkQxJ",
         "testimonial_bteHat",
         "testimonial_eNgWMP",
-        "testimonial_ry7kBU"
+        "testimonial_ry7kBU",
+        "testimonial_z47VYt"
       ],
       "settings": {
         "title": "Hear From Our Satisfied Customers",
