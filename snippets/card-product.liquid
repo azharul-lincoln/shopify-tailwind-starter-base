@@ -114,13 +114,27 @@
               {% endif %}
             >
 
-            {% comment %} 
+            <a
+        style="cursor: pointer;"
+        href="{{ filtered_variant.url | default: product.url | within: collection }}/#yotpo-reviews-main-widget"
+      >
+        <div
+          style="margin-bottom: 10px; cursor: pointer;"
+          class="yotpo-widget-instance"
+          data-yotpo-instance-id="564473"
+          data-yotpo-product-id="{{ product.id }}"
+          data-yotpo-cart-product-id="{{ item.product.id }}"
+          {% comment %} data-yotpo-section-id="{{ template.name }}" {% endcomment %}
+          data-yotpo-section-id="search"
+        ></div>
+      </a>
 
 
 
 
-            
-             {% endcomment %}
+
+
+
               <a
                 href="{{ card_product.url }}"
                 id="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }}"
