@@ -103,10 +103,11 @@
     <section class="ex-featured-products" >
 
     {% for block in section.blocks %}
-        <pre>
+        {% comment %} <pre>
         {{ block.type | json }}
 
-      </pre> 
+      </pre>  {% endcomment %}
+      {{ block.type }}
       {% if block.type == 'tab' %}
 
         {{ block.number_of_products }}
