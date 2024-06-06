@@ -41,10 +41,25 @@
             ],
             "collection": "shampoo"
           }
+        },
+        "tab_MXEwUQ": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "New",
+            "number_of_products": 3,
+            "product_list": [
+              "770-ultimate-shampoo-unit-all-in-one-backwash-unit-black-or-white-with-matching-shampoo-bowl-faucet-and-fixtures",
+              "68422-box-shaped-salon-styling-chair-black-or-white-with-comfortable-footrest-and-coin-base",
+              "ikonna-all-purpose-chair-h-2093bkr-versatile-barber-salon-chair-in-sleek-black-with-coin-base-and-adjustable-positions",
+              "ikonna-all-in-one-shampoo-chair-unit-h-5018bk-sleek-backwash-unit-in-classic-black-featuring-a-retractable-footrest"
+            ],
+            "collection": ""
+          }
         }
       },
       "block_order": [
-        "tab_TgNw9G"
+        "tab_TgNw9G",
+        "tab_MXEwUQ"
       ],
       "settings": {
       }
