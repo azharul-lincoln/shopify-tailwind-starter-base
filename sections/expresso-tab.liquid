@@ -110,7 +110,7 @@
       {% if block.type == 'tab' %}
         {{ block.type }}
 
-        {{ block.settings.product_list }}
+        {{ block.settings.product_list | json }}
 
       {% endif %}
 
