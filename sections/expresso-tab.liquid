@@ -103,11 +103,10 @@
     <section class="ex-featured-products" >
 
     {% for block in section.blocks %}
-      {% comment %} 
         <pre>
         {{ block.settings | json }}
 
-      </pre> {% endcomment %}
+      </pre> 
 
       {% for setting in block.settings %}
         {{ setting.tab_title | json   }}
