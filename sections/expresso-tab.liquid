@@ -110,7 +110,7 @@
       </pre> {% endcomment %}
 
       {% for setting in block.settings %}
-        {{ setting | json   }}
+        {{ setting.tab_title | json   }}
       {% endfor %}
     {% endfor %}
 
