@@ -26,6 +26,11 @@
         "show_pagination": false
       }
     },
+    "expresso_tab_PXgVPG": {
+      "type": "expresso-tab",
+      "settings": {
+      }
+    },
     "collection_list_UgABY9": {
       "type": "collection-list",
       "blocks": {
@@ -252,6 +257,7 @@
   },
   "order": [
     "swiper_slider_dwnGgH",
+    "expresso_tab_PXgVPG",
     "collection_list_UgABY9",
     "featured_collection_bqEGTX",
     "testimonial_AGhJd7"
