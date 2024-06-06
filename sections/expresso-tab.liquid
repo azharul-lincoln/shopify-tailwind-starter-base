@@ -107,7 +107,7 @@
         {{ block.type | json }}
 
       </pre> 
-      {% if block.type %}
+      {% if block.type == 'tab' %}
         
       {% endif %}
       {% for setting in block.settings %}
