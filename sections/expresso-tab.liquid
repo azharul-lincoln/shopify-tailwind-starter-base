@@ -108,11 +108,11 @@
 
       </pre> 
       {% if block.type == 'tab' %}
-        
+        {% for setting in block.settings %}
+          {{ setting.tab_title | json   }}
+        {% endfor %}
       {% endif %}
-      {% for setting in block.settings %}
-        {{ setting.tab_title | json   }}
-      {% endfor %}
+
     {% endfor %}
 
         <h2>Featured Equipment</h2>
