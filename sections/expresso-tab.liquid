@@ -29,38 +29,5 @@
   }
   {% endschema %}
   
-  <section id="custom-section">
-    <div class="container">
-      <h2>{{ section.settings.heading }}</h2>
-      <div class="custom-content">
-        {{ section.settings.content }}
-      </div>
-      {% if section.settings.image %}
-        <img src="{{ section.settings.image | img_url: 'large' }}" alt="{{ section.settings.heading }}">
-      {% endif %}
-    </div>
-  </section>
   
-  <style>
-    #custom-section {
-      padding: 20px;
-      background-color: #f9f9f9;
-      text-align: center;
-    }
-    #custom-section .container {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-    #custom-section h2 {
-      font-size: 2em;
-      margin-bottom: 20px;
-    }
-    #custom-section .custom-content {
-      margin-bottom: 20px;
-    }
-    #custom-section img {
-      max-width: 100%;
-      height: auto;
-    }
-  </style>
   
