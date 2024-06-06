@@ -110,7 +110,7 @@
       </pre> {% endcomment %}
 
       {% for setting in block.settings %}
-        {{ setting.type   }}
+        {{ setting | json   }}
       {% endfor %}
     {% endfor %}
 
