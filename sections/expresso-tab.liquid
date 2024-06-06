@@ -104,10 +104,12 @@
 
     {% for block in section.blocks %}
         <pre>
-        {{ block.settings | json }}
+        {{ block.type | json }}
 
       </pre> 
-
+      {% if block.type %}
+        
+      {% endif %}
       {% for setting in block.settings %}
         {{ setting.tab_title | json   }}
       {% endfor %}
