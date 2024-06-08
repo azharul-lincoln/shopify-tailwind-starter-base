@@ -49,10 +49,36 @@
             ],
             "collection": "shampoo"
           }
+        },
+        "tab_FjJ9Be": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "New Arrivals",
+            "number_of_products": 3,
+            "product_list": [
+              "6370-premium-salon-styling-chair-black-box-shaped-design-salon-chair",
+              "6510-salon-styling-chair-in-black-white-comfortable-footrest-and-durable-pump-base",
+              "68119-sleek-box-shaped-salon-styling-chair-black-white-with-footrest-and-swivel-base68119-sleek-salon-styling-chair-black-white-with-footrest-and-swivel-base"
+            ],
+            "collection": ""
+          }
+        },
+        "tab_UFnaHK": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Best Sellers",
+            "number_of_products": 3,
+            "product_list": [
+
+            ],
+            "collection": "best-sellers"
+          }
         }
       },
       "block_order": [
-        "tab_TgNw9G"
+        "tab_TgNw9G",
+        "tab_FjJ9Be",
+        "tab_UFnaHK"
       ],
       "settings": {
       }
