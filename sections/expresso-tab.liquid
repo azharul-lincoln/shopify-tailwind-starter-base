@@ -138,32 +138,17 @@
     {% endfor %}
   </div>
 
+    <!-- Tab content -->
+
   {% for block in section.blocks %}
     {% if block.type == 'tab' %}
       <div id="tab-{{block.id}}" class="tabcontent">
         {% for product in block.settings.product_list %}
-            <h4>{{ prou }} - {{ forloop.index }}</h4>
+            <h4>{{ product.title }} - {{ forloop.index }}</h4>
         {% endfor %}
       </div>
     {% endif %}
   {% endfor %}
-
-
-  <!-- Tab content -->
-  <div id="London" class="tabcontent">
-    <h3>Zara styling chair</h3>
-    <p>$1000</p>
-  </div>
-
-  <div id="Paris" class="tabcontent">
-    <h3>Zara styling chair</h3>
-    <p>$1000</p>
-  </div>
-
-  <div id="Tokyo" class="tabcontent">
-    <h3>Zara styling chair</h3>
-    <p>$1000</p>
-  </div>
 
 </section>
 
