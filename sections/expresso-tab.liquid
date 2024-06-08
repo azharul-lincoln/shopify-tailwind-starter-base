@@ -119,23 +119,29 @@
   <h2>Featured Equipment</h2>
   <div class="tab">
 
-  {% for block in section.blocks %}
-    {% if block.type == 'tab' %}
-      <!-- Tab links -->
+    {% for block in section.blocks %}
+      {% if block.type == 'tab' %}
+        <!-- Tab links -->
         <button class="tablinks" onclick="openCity(event, 'London')">{{ block.settings.tab_title }}</button>
-      {% for product in block.settings.product_list %}
-        {% comment %} <h4>{{product.title}}</h4> {% endcomment %}
-      {% endfor %}
-    {% endif %}
+        {% for product in block.settings.product_list %}
+          {% comment %} <h4>{{product.title}}</h4> {% endcomment %}
+        {% endfor %}
+      {% endif %}
 
-  {% endfor %}
+    {% endfor %}
+  </div>
 
   <!-- Tab links -->
-  {% comment %} <div class="tab">
-                                              <button class="tablinks active" onclick="openCity(event, 'London')">Hot Products</button>
-                                              <button class="tablinks" onclick="openCity(event, 'Paris')">New Merchandise</button>
-                                              <button class="tablinks" onclick="openCity(event, 'Tokyo')">Best Sellers</button>
-                          </div> {% endcomment %}
+  {% comment %} 
+      
+      <div class="tab">
+                                                      <button class="tablinks active" onclick="openCity(event, 'London')">Hot Products</button>
+                                                      <button class="tablinks" onclick="openCity(event, 'Paris')">New Merchandise</button>
+                                                      <button class="tablinks" onclick="openCity(event, 'Tokyo')">Best Sellers</button>
+                                </div> 
+                            
+                            
+    {% endcomment %}
 
   <!-- Tab content -->
   <div id="London" class="tabcontent">
