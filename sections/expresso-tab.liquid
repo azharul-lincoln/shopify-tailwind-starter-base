@@ -110,18 +110,18 @@
           <button class="tablinks" onclick="openCity(event, 'London')">{{ block.settings.tab_title }}</button>
         </div>
         {% for product in block.settings.product_list %}
-          <h4>{{product.title}}</h4>
+          {% comment %} <h4>{{product.title}}</h4> {% endcomment %}
         {% endfor %}
       {% endif %}
 
     {% endfor %}
 
         <!-- Tab links -->
-        <div class="tab">
+        {% comment %} <div class="tab">
           <button class="tablinks active" onclick="openCity(event, 'London')">Hot Products</button>
           <button class="tablinks" onclick="openCity(event, 'Paris')">New Merchandise</button>
           <button class="tablinks" onclick="openCity(event, 'Tokyo')">Best Sellers</button>
-        </div>
+        </div> {% endcomment %}
 
         <!-- Tab content -->
         <div id="London" class="tabcontent">
