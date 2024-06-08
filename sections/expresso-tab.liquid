@@ -142,7 +142,7 @@
         {% for product in block.settings.product_list %}
           <h4>{{ product.title }} - {{ forloop.index }}</h4>
           <img src="{{ product.featured_image }}" alt="{{ forloop.index }} />
-          {{ product.featured_image | json }}
+          <p></p>{{ product.featured_image | json }}</p>
         {% endfor %}
       </div>
     {% endif %}
