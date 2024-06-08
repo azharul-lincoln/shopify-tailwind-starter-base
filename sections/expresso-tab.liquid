@@ -106,7 +106,7 @@
       {% if block.type == 'tab' %}
         {{ block.type }}
         {% for prod in block.settings.product_list %}
-          {{prod}}
+          {{prod.name}}
         {% endfor %}
       {% endif %}
 
