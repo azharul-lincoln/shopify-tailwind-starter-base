@@ -131,7 +131,7 @@
     {% for block in section.blocks %}
       {% if block.type == 'tab' %}
         <!-- Tab links -->
-        <button class="tablinks" onclick="openCity(event, 'London')">{{ block.settings.tab_title }}</button>
+        <button class="tablinks" onclick="openCity(event, 'tab-{{block.id}}')">{{ block.settings.tab_title }}</button>
         {% comment %} {% for product in block.settings.product_list %}
                 {% endfor %} {% endcomment %}
       {% endif %}
