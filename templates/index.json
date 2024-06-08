@@ -6,21 +6,29 @@
         "slide_bQpfY7": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SalonPro_Web_banners_2160_x_720_px_13_2000x_76164042-9d7d-4681-8790-7edf883c097a.webp",
+            "image": "shopify:\/\/shop_images\/6_2_2000x_b069a4f6-509e-45d8-846f-896f4f896076.webp",
             "caption": ""
           }
         },
         "slide_t7yJgp": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_118_2000x_09a48663-b5cc-435e-9d20-4d3f0351ed53.webp",
+            "image": "shopify:\/\/shop_images\/SalonPro_Web_banners_2160_x_720_px_13_2000x_fe4a1813-aa78-4670-87a7-cf41c8ba8950.webp",
             "caption": ""
+          }
+        },
+        "slide_Czbf9W": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_118_2000x_0700e694-4f63-499e-a1b9-063b4411d42a.webp",
+            "caption": "This is a caption."
           }
         }
       },
       "block_order": [
         "slide_bQpfY7",
-        "slide_t7yJgp"
+        "slide_t7yJgp",
+        "slide_Czbf9W"
       ],
       "settings": {
         "show_pagination": false
@@ -41,25 +49,10 @@
             ],
             "collection": "shampoo"
           }
-        },
-        "tab_MXEwUQ": {
-          "type": "tab",
-          "settings": {
-            "tab_title": "New",
-            "number_of_products": 3,
-            "product_list": [
-              "770-ultimate-shampoo-unit-all-in-one-backwash-unit-black-or-white-with-matching-shampoo-bowl-faucet-and-fixtures",
-              "68422-box-shaped-salon-styling-chair-black-or-white-with-comfortable-footrest-and-coin-base",
-              "ikonna-all-purpose-chair-h-2093bkr-versatile-barber-salon-chair-in-sleek-black-with-coin-base-and-adjustable-positions",
-              "ikonna-all-in-one-shampoo-chair-unit-h-5018bk-sleek-backwash-unit-in-classic-black-featuring-a-retractable-footrest"
-            ],
-            "collection": ""
-          }
         }
       },
       "block_order": [
-        "tab_TgNw9G",
-        "tab_MXEwUQ"
+        "tab_TgNw9G"
       ],
       "settings": {
       }
