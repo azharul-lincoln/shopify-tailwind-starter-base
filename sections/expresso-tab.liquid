@@ -107,9 +107,7 @@
       {% if block.type == 'tab' %}
         <!-- Tab links -->
         <div class="tab">
-          <button class="tablinks" onclick="openCity(event, 'London')">{{ settings.tab_title }}</button>
-          <button class="tablinks" onclick="openCity(event, 'Paris')">New Merchandise</button>
-          <button class="tablinks" onclick="openCity(event, 'Tokyo')">Best Sellers</button>
+          <button class="tablinks" onclick="openCity(event, 'London')">{{ block.settings.tab_title }}</button>
         </div>
         {% for product in block.settings.product_list %}
           <h4>{{product.title}}</h4>
