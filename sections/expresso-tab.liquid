@@ -1,166 +1,162 @@
-
-  
-  {% schema %}
-    {
-      "name": "Expresso Tab",
-      "settings": [],
-      "blocks": [
+{% schema %}
+  {
+    "name": "Expresso Tab",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "test",
+        "name": "Test Multiple Blocks",
+        "settings": [
           {
-            "type": "test",
-            "name": "Test Multiple Blocks",
-            "settings": [
-              {
-                "type": "text",
-                "id": "tab_title_dr",
-                "label": "Tab Title",
-                "default": "Tab"
-              }
-            ]
+            "type": "text",
+            "id": "tab_title_dr",
+            "label": "Tab Title",
+            "default": "Tab"
+          }
+        ]
+      },
+      {
+        "type": "tab",
+        "name": "Tab",
+        "settings": [
+          {
+            "type": "text",
+            "id": "tab_title",
+            "label": "Tab Title",
+            "default": "Tab"
           },
           {
-            "type": "tab",
-            "name": "Tab",
-            "settings": [
-              {
-                "type": "text",
-                "id": "tab_title",
-                "label": "Tab Title",
-                "default": "Tab"
-              },
-              {
-                "type": "range",
-                "id": "number_of_products",
-                "min": 3,
-                "max": 6,
-                "step": 1,
-                "label": "Number Of Product",
-                "default": 3
-              },
-              {
-                "type": "product_list",
-                "id": "product_list",
-                "label": "Products",
-                "limit": 4
-              },
-                    {
-                    "type": "collection",
-                    "id": "collection",
-                    "label": "Collection"
-                  }
-            ]
+            "type": "range",
+            "id": "number_of_products",
+            "min": 3,
+            "max": 6,
+            "step": 1,
+            "label": "Number Of Product",
+            "default": 3
+          },
+          {
+            "type": "product_list",
+            "id": "product_list",
+            "label": "Products",
+            "limit": 4
+          },
+          {
+            "type": "collection",
+            "id": "collection",
+            "label": "Collection"
           }
-          ],
-      "presets": [
-        {
-          "name": "Expresso Tab",
-                  "blocks": [
-                  {
-                    "type": "tab"
-                  }
-      ]
-        }
-      ]
-    }
-    {% endschema %}
-
-
-
-    {%- style -%}
-      /* Style the tab */
-      .tab {
-        overflow: hidden;
-        border: 1px solid #ccc;
-        background-color: #f1f1f1;
+        ]
       }
-
-      /* Style the buttons that are used to open the tab content */
-      .tab button {
-        background-color: inherit;
-        float: left;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        padding: 14px 16px;
-        transition: 0.3s;
+    ],
+    "presets": [
+      {
+        "name": "Expresso Tab",
+        "blocks": [
+          {
+            "type": "tab"
+          }
+        ]
       }
+    ]
+  }
+{% endschema %}
 
-      /* Change background color of buttons on hover */
-      .tab button:hover {
-        background-color: #ddd;
-      }
 
-      /* Create an active/current tablink class */
-      .tab button.active {
-        background-color: #ccc;
-      }
+{%- style -%}
+  /* Style the tab */
+  .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
 
-      /* Style the tab content */
-      .tabcontent {
-        display: none;
-        padding: 6px 12px;
-        border: 1px solid #ccc;
-        border-top: none;
-      }
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
 
-      .ex-featured-products{
-        background-color: #cdcdcd;
-        border-radius: 9px;
-        display: block;
-        margin-bottom: 40px;
-        text-align: center;
-        padding:50px auto;
-}
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
 
-.ex-featured-products h2 {
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+  .ex-featured-products {
+    background-color: #cdcdcd;
+    border-radius: 9px;
+    display: block;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 50px auto;
+  }
+
+  .ex-featured-products h2 {
     font-size: 40px;
-}
+  }
 
-    {%- endstyle -%}
-    
-    <section class="ex-featured-products" >
-      <h2>Featured Equipment</h2>
+{%- endstyle -%}
 
-    {% for block in section.blocks %}
-      {% if block.type == 'tab' %}
-        <!-- Tab links -->
-        <div class="tab">
-          <button class="tablinks" onclick="openCity(event, 'London')">{{ block.settings.tab_title }}</button>
-        </div>
-        {% for product in block.settings.product_list %}
-          {% comment %} <h4>{{product.title}}</h4> {% endcomment %}
-        {% endfor %}
-      {% endif %}
+<section class="ex-featured-products">
+  <h2>Featured Equipment</h2>
 
-    {% endfor %}
+  {% for block in section.blocks %}
+    {% if block.type == 'tab' %}
+      <!-- Tab links -->
+      <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'London')">{{ block.settings.tab_title }}</button>
+      </div>
+      {% for product in block.settings.product_list %}
+        {% comment %} <h4>{{product.title}}</h4> {% endcomment %}
+      {% endfor %}
+    {% endif %}
 
-        <!-- Tab links -->
-        {% comment %} <div class="tab">
-          <button class="tablinks active" onclick="openCity(event, 'London')">Hot Products</button>
-          <button class="tablinks" onclick="openCity(event, 'Paris')">New Merchandise</button>
-          <button class="tablinks" onclick="openCity(event, 'Tokyo')">Best Sellers</button>
-        </div> {% endcomment %}
+  {% endfor %}
 
-        <!-- Tab content -->
-        <div id="London" class="tabcontent">
-          <h3>Zara styling chair</h3>
-          <p>$1000</p>
-        </div>
+  <!-- Tab links -->
+  {% comment %} <div class="tab">
+              <button class="tablinks active" onclick="openCity(event, 'London')">Hot Products</button>
+              <button class="tablinks" onclick="openCity(event, 'Paris')">New Merchandise</button>
+              <button class="tablinks" onclick="openCity(event, 'Tokyo')">Best Sellers</button>
+          </div> {% endcomment %}
 
-        <div id="Paris" class="tabcontent">
-          <h3>Zara styling chair</h3>
-          <p>$1000</p>
-        </div>
+  <!-- Tab content -->
+  <div id="London" class="tabcontent">
+    <h3>Zara styling chair</h3>
+    <p>$1000</p>
+  </div>
 
-        <div id="Tokyo" class="tabcontent">
-          <h3>Zara styling chair</h3>
-          <p>$1000</p>
-        </div>
+  <div id="Paris" class="tabcontent">
+    <h3>Zara styling chair</h3>
+    <p>$1000</p>
+  </div>
+
+  <div id="Tokyo" class="tabcontent">
+    <h3>Zara styling chair</h3>
+    <p>$1000</p>
+  </div>
 
 
-     
-    </section>
+</section>
 
-    <script>
+<script>
         function openCity(evt, cityName) {
           // Declare all variables
           var i, tabcontent, tablinks;
@@ -181,4 +177,4 @@
           document.getElementById(cityName).style.display = "block";
           evt.currentTarget.className += " active";
         }
-    </script>
+</script>
