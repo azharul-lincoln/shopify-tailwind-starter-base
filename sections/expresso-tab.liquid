@@ -117,15 +117,6 @@
           <button class="tablinks active" onclick="openCity(event, 'London')">Hot Products</button>
           <button class="tablinks" onclick="openCity(event, 'Paris')">New Merchandise</button>
           <button class="tablinks" onclick="openCity(event, 'Tokyo')">Best Sellers</button>
-
-          {% for block in section.blocks %}
-            {% if block.type == 'tab' %}
-              {% for product in block.settings.product_list %}
-                <button class="tablinks active" onclick="openCity(event, 'London')">Hot Products</button>
-              {% endfor %}
-            {% endif %}
-      
-          {% endfor %}
         </div>
 
         <!-- Tab content -->
