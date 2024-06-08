@@ -104,9 +104,7 @@
 
     {% for block in section.blocks %}
       {% if block.type == 'tab' %}
-        {% comment %} {{ block.type }} {% endcomment %}
-        {% for prod in block.settings.product_list %}
-          <h2>{{ prod.title }}</h2>
+        {% for product in block.settings.product_list %}
         {% endfor %}
       {% endif %}
 
