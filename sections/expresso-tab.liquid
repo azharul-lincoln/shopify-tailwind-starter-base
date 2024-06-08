@@ -6,6 +6,18 @@
       "settings": [],
       "blocks": [
           {
+            "type": "test",
+            "name": "Test Multiple Blocks",
+            "settings": [
+              {
+                "type": "text",
+                "id": "tab_title_dr",
+                "label": "Tab Title",
+                "default": "Tab"
+              }
+            ]
+          },
+          {
             "type": "tab",
             "name": "Tab",
             "settings": [
@@ -40,7 +52,15 @@
           ],
       "presets": [
         {
-          "name": "Expresso Tab"
+          "name": "Expresso Tab",
+        "blocks": [
+          {
+          "type": "test"
+        },
+        {
+          "type": "tab"
+        }
+      ]
         }
       ]
     }
