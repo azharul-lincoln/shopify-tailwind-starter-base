@@ -141,7 +141,7 @@
       <div id="tab-{{block.id}}" class="tabcontent {%- if forloop.index == 1 -%} {{ ' active' }} {%- endif -%}">
         <ul>
           <li></li>
-        </ul>
+
         {% for product in block.settings.product_list %}
 
           {% render 'card-product',
@@ -150,6 +150,7 @@
             %}
          
         {% endfor %}
+        </ul>
       </div>
     {% endif %}
   {% endfor %}
