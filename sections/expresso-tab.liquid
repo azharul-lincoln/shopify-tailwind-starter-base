@@ -117,10 +117,8 @@
 
 <section class="ex-featured-products">
   <h2>Featured Equipment</h2>
-  <div class="tab">
 
-
-    <!-- Tab links -->
+      <!-- Tab links -->
   {% comment %} 
       <div class="tab">
           <button class="tablinks active" onclick="openCity(event, 'London')">Hot Products</button>
@@ -129,7 +127,7 @@
       </div>           
     {% endcomment %}
 
-
+  <div class="tab">
     {% for block in section.blocks %}
       {% if block.type == 'tab' %}
         <!-- Tab links -->
