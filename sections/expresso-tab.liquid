@@ -117,13 +117,12 @@
 
 <section class="ex-featured-products">
   <h2>Featured Equipment</h2>
+  <div class="tab">
 
   {% for block in section.blocks %}
     {% if block.type == 'tab' %}
       <!-- Tab links -->
-      <div class="tab">
         <button class="tablinks" onclick="openCity(event, 'London')">{{ block.settings.tab_title }}</button>
-      </div>
       {% for product in block.settings.product_list %}
         {% comment %} <h4>{{product.title}}</h4> {% endcomment %}
       {% endfor %}
