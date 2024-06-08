@@ -121,7 +121,7 @@
     {% for block in section.blocks %}
       {% if block.type == 'tab' %}
         <!-- Tab links -->
-        <button class="tablinks" onclick="openTabContent(event, 'tab-{{block.id}}')">{{ block.settings.tab_title }}</button>
+        <button class="tablinks {% if forloop.index == 1  %} {{ 'active' }} {% endif %}" onclick="openTabContent(event, 'tab-{{block.id}}')">{{ block.settings.tab_title }}</button>
       {% endif %}
     {% endfor %}
   </div>
@@ -149,7 +149,7 @@
           // Get all elements with class="tablinks" and remove the class "active"
           tablinks = document.getElementsByClassName("tablinks");
           for (i = 0; i < tablinks.length; i++) {
-            // tablinks[i].className = tablinks[i].className.replace(" active", "");
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
           }
 
           // Get all elements with class="tabcontent" and hide them
