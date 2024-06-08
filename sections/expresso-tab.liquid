@@ -105,7 +105,7 @@
     {% for block in section.blocks %}
       {% if block.type == 'tab' %}
         {% for product in block.settings.product_list %}
-          <h4>{{product.type}}</h4>
+          <h4>{{product.title}}</h4>
         {% endfor %}
       {% endif %}
 
