@@ -101,6 +101,7 @@
     {%- endstyle -%}
     
     <section class="ex-featured-products" >
+      <h2>Featured Equipment</h2>
 
     {% for block in section.blocks %}
       {% if block.type == 'tab' %}
@@ -111,7 +112,6 @@
 
     {% endfor %}
 
-        <h2>Featured Equipment</h2>
         <!-- Tab links -->
         <div class="tab">
           <button class="tablinks active" onclick="openCity(event, 'London')">Hot Products</button>
