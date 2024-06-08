@@ -141,9 +141,7 @@
       <div id="tab-{{block.id}}" class="tabcontent {%- if forloop.index == 1 -%} {{ ' active' }} {%- endif -%}">
         {% for product in block.settings.product_list %}
           <h4>{{ product.title }} - {{ forloop.index }}</h4>
-          <img 
-          src='{{ product.featured_image | image_url: width: 760 }}'
-          alt="{{ forloop.index }} />
+          <img src='{{ product.featured_image | image_url: width: 760 }}' alt="{{ forloop.index }} />
          
         {% endfor %}
       </div>
