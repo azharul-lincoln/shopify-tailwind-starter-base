@@ -132,8 +132,6 @@
       {% if block.type == 'tab' %}
         <!-- Tab links -->
         <button class="tablinks" onclick="openTabContent(event, 'tab-{{block.id}}')">{{ block.settings.tab_title }}</button>
-        {% comment %} {% for product in block.settings.product_list %}
-                        {% endfor %} {% endcomment %}
       {% endif %}
     {% endfor %}
   </div>
