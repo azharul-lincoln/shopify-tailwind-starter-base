@@ -106,7 +106,7 @@
       {% if block.type == 'tab' %}
         {% comment %} {{ block.type }} {% endcomment %}
         {% for prod in block.settings.product_list %}
-          {{ prod |  json }}
+          <h2>{{ product.title }}</h2>
         {% endfor %}
       {% endif %}
 
