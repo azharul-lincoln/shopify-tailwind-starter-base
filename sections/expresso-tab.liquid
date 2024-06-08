@@ -140,7 +140,7 @@
 
   {% for block in section.blocks %}
     {% if block.type == 'tab' %}
-      <div id="tab-{{}}" class="tabcontent">
+      <div id="tab-{{block.id}}" class="tabcontent">
         {% for product in block.settings.product_list %}
 
         {% endfor %}
