@@ -104,9 +104,9 @@
 
     {% for block in section.blocks %}
       {% if block.type == 'tab' %}
-        {{ block.type }}
+        {% comment %} {{ block.type }} {% endcomment %}
         {% for prod in block.settings.product_list %}
-          {{prod |  json }}
+          {{ prod |  json }}
         {% endfor %}
       {% endif %}
 
