@@ -148,17 +148,8 @@
           aria-label="{{ 'general.slider.name' | t }}"
         >
           {% for product in block.settings.product_list %}
-            <li>
-              {% render 'card-product', 
-              card_product: product,
-              media_aspect_ratio: "square",
-              image_shape: "card--shape",
-              show_secondary_image: false,
-              show_vendor: false,
-              show_rating: false,
-              section_id: section.id,
-              quick_add: true
-              %}
+            <li class="tw-">
+
             </li>
           {% endfor %}
         </ul>
