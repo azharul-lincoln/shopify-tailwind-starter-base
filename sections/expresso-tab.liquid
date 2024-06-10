@@ -64,7 +64,7 @@
 
 {%- style -%}
   /* Style the tab */
-  .tab:test {
+  .tab {
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
@@ -73,7 +73,7 @@
   }
 
   /* Style the buttons that are used to open the tab content */
-  .tab:test button {
+  .tab button {
     background-color: inherit;
     float: left;
     border: none;
@@ -84,12 +84,12 @@
   }
 
   /* Change background color of buttons on hover */
-  .tab:test button:hover {
+  .tab button:hover {
     background-color: #ddd;
   }
 
   /* Create an active/current tablink class */
-  .tab:test button.active {
+  .tab button.active {
     background-color: #ccc;
   }
 
@@ -123,7 +123,7 @@
 
 <section class="ex-featured-products page-width">
   <h2>Featured Equipment</h2>
-  <div class="tab:test">
+  <div class="tab">
     {% for block in section.blocks %}
       {% if block.type == 'tab' %}
         <!-- Tab links -->
