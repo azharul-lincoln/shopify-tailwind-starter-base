@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "logo": "shopify:\/\/shop_images\/SalonPro_final_A_white_-01_copy_1e6894e0-9c43-4dc2-9639-7a177f0ea891.png",
@@ -244,6 +253,17 @@
           "button_label": "#424e5b",
           "secondary_button_label": "#ffffff",
           "shadow": "#424e5b"
+        }
+      },
+      "scheme-6583c928-85c8-4194-a478-1a885b877894": {
+        "settings": {
+          "background": "#b5d642",
+          "background_gradient": "linear-gradient(180deg, rgba(181, 214, 66, 1), rgba(127, 72, 176, 1) 50%, rgba(48, 145, 211, 1) 100%)",
+          "text": "#ffffff",
+          "button": "#334fb4",
+          "button_label": "#424e5b",
+          "secondary_button_label": "#6A6A6A",
+          "shadow": "#dedede"
         }
       }
     }
