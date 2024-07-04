@@ -258,7 +258,7 @@
       "scheme-6583c928-85c8-4194-a478-1a885b877894": {
         "settings": {
           "background": "#b5d642",
-          "background_gradient": "linear-gradient(180deg, rgba(181, 214, 66, 1), rgba(127, 72, 176, 1) 50%, rgba(48, 145, 211, 1) 100%)",
+          "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
           "button_label": "#424e5b",
