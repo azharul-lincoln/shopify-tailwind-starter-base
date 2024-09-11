@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "swiper_slider_dwnGgH": {
@@ -44,7 +53,7 @@
             "number_of_products": 3,
             "product_list": [
               "1852-single-sided-salon-styling-station-sleek-black-styling-station-with-mirror",
-              "556-all-in-one-shampoo-unit-with-bowl-faucet-and-fixtures",
+              "all-in-one-shampoo-unit-with-bowl-faucet",
               "6365-salon-styling-chair-with-black-vinyl-upholstery-footrest-and-sturdy-pump-base",
               "6370-premium-salon-styling-chair-black-box-shaped-design-salon-chair"
             ],
