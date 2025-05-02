@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "swiper_slider_dwnGgH": {
@@ -15,21 +15,21 @@
         "slide_bQpfY7": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/6_2_2000x_b069a4f6-509e-45d8-846f-896f4f896076.webp",
+            "image": "shopify://shop_images/6_2_2000x_b069a4f6-509e-45d8-846f-896f4f896076.webp",
             "caption": ""
           }
         },
         "slide_t7yJgp": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SalonPro_Web_banners_2160_x_720_px_13_2000x_fe4a1813-aa78-4670-87a7-cf41c8ba8950.webp",
+            "image": "shopify://shop_images/SalonPro_Web_banners_2160_x_720_px_13_2000x_fe4a1813-aa78-4670-87a7-cf41c8ba8950.webp",
             "caption": ""
           }
         },
         "slide_Czbf9W": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_118_2000x_0700e694-4f63-499e-a1b9-063b4411d42a.webp",
+            "image": "shopify://shop_images/2_118_2000x_0700e694-4f63-499e-a1b9-063b4411d42a.webp",
             "caption": "This is a caption."
           }
         }
@@ -68,7 +68,7 @@
             "product_list": [
               "premium-black-box-salon-chair-6370",
               "salon-chair-black-white-footrest-6510",
-              "68119-sleek-box-salon-chair-black-white-footrest-swivel"
+              "68119-sleek-salon-chair-black-white-swivel-footrest"
             ],
             "collection": ""
           }
@@ -78,9 +78,7 @@
           "settings": {
             "tab_title": "Best Sellers",
             "number_of_products": 3,
-            "product_list": [
-
-            ],
+            "product_list": [],
             "collection": "best-sellers"
           }
         }
@@ -90,8 +88,7 @@
         "tab_FjJ9Be",
         "tab_UFnaHK"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "featured_collection_CbMJMY": {
       "type": "featured-collection",
@@ -219,7 +216,7 @@
             "customer_name": "Jon Doe",
             "youtube_video": "",
             "star_rating": 5,
-            "title": "<p>Earned its worth in less than a month!<\/p><p>\"I bought a matrix color machine 25 yrs ago used at $5000.00. It took a up a lot of space but worked until it died last year. A friend recommended the orbiting halo to me and it took about two weeks to get here, but it earned its worth in less than a month. Took my friend to a fancy dinner for her recommendation and I salute you for a great product. Thank you.\"<\/p>",
+            "title": "<p>Earned its worth in less than a month!</p><p>\"I bought a matrix color machine 25 yrs ago used at $5000.00. It took a up a lot of space but worked until it died last year. A friend recommended the orbiting halo to me and it took about two weeks to get here, but it earned its worth in less than a month. Took my friend to a fancy dinner for her recommendation and I salute you for a great product. Thank you.\"</p>",
             "link_label": "",
             "link": ""
           }
@@ -230,7 +227,7 @@
             "customer_name": "Jon Doe",
             "youtube_video": "",
             "star_rating": 5,
-            "title": "<p>Easy to use<\/p><p>\"This was super easy to use and clients think it looks cool. Because it’s not a hood dryer the clients face doesn’t get hot and it’s a lot quieter so you can still have a conversation while they are under it.\"<\/p>",
+            "title": "<p>Easy to use</p><p>\"This was super easy to use and clients think it looks cool. Because it’s not a hood dryer the clients face doesn’t get hot and it’s a lot quieter so you can still have a conversation while they are under it.\"</p>",
             "link_label": "",
             "link": ""
           }
@@ -241,7 +238,7 @@
             "customer_name": "Jon Doe",
             "youtube_video": "",
             "star_rating": 5,
-            "title": "<p>So impressed by this!<br\/><br\/>\"Love the Halo to help with the highlights, they are balanced and hair is not damaged ! <br\/><br\/>My permanent\/Demi and temporary colors have depth! The Integrity of the hair is not compromised! I am so impressed with my Halo ! I love that the timing is literally cut down …. I so want another one for the other side of my salon.\"<\/p>",
+            "title": "<p>So impressed by this!<br/><br/>\"Love the Halo to help with the highlights, they are balanced and hair is not damaged ! <br/><br/>My permanent/Demi and temporary colors have depth! The Integrity of the hair is not compromised! I am so impressed with my Halo ! I love that the timing is literally cut down …. I so want another one for the other side of my salon.\"</p>",
             "link_label": "",
             "link": ""
           }
@@ -252,7 +249,7 @@
             "customer_name": "Jon Doe",
             "youtube_video": "",
             "star_rating": 4,
-            "title": "<p>Ordered during COVID<br\/><br\/>\"I ordered this during shut down and couldn’t wait to try it when we opened back up. I have to say that I am very happy with this purchase and so are my clients. It’s very quiet, doesn’t dry out my clients eyes like the hood dryers do and it processes color in half the time.\"<\/p>",
+            "title": "<p>Ordered during COVID<br/><br/>\"I ordered this during shut down and couldn’t wait to try it when we opened back up. I have to say that I am very happy with this purchase and so are my clients. It’s very quiet, doesn’t dry out my clients eyes like the hood dryers do and it processes color in half the time.\"</p>",
             "link_label": "",
             "link": ""
           }
@@ -263,7 +260,7 @@
             "customer_name": "Jon Doe",
             "youtube_video": "",
             "star_rating": 5,
-            "title": "<p>Just what I needed<br\/><br\/>\"This is so much better for. Olor processing than any heat source. Air doesn’t dry out the lightener and it processes quicker and more even than anything. Worth every penny. I’ve experienced no breakage or damage like other drivers can cause\"<\/p>",
+            "title": "<p>Just what I needed<br/><br/>\"This is so much better for. Olor processing than any heat source. Air doesn’t dry out the lightener and it processes quicker and more even than anything. Worth every penny. I’ve experienced no breakage or damage like other drivers can cause\"</p>",
             "link_label": "",
             "link": ""
           }
@@ -274,7 +271,7 @@
             "customer_name": "Jon Doe",
             "youtube_video": "",
             "star_rating": 5,
-            "title": "<p>Customer satisfaction priority!<br\/><br\/>\"They are always willing to collaborate if there is a problem with the product, guaranteeing customer satisfaction first of all, very happy with their products.\"<\/p>",
+            "title": "<p>Customer satisfaction priority!<br/><br/>\"They are always willing to collaborate if there is a problem with the product, guaranteeing customer satisfaction first of all, very happy with their products.\"</p>",
             "link_label": "",
             "link": ""
           }
@@ -285,7 +282,7 @@
             "customer_name": "Jon Doe",
             "youtube_video": "",
             "star_rating": 5,
-            "title": "<p>Love this processor! <br\/><br\/>\"We formerly used a bonnet processor, and it was very confining to the client. This is open and comfortable and processes the color or chemical service quickly and efficiently. I definitely recommend it without reservation!\"<\/p>",
+            "title": "<p>Love this processor! <br/><br/>\"We formerly used a bonnet processor, and it was very confining to the client. This is open and comfortable and processes the color or chemical service quickly and efficiently. I definitely recommend it without reservation!\"</p>",
             "link_label": "",
             "link": ""
           }
@@ -296,7 +293,7 @@
             "customer_name": "Jon Doe",
             "youtube_video": "",
             "star_rating": 5,
-            "title": "<p>Amazing company<br\/><br\/>\"I had some issues buying from a 3rd party .. decided to call salonpro instead and what a great idea that was !!! So helpful , really take pride in there product !! 1000% customer service !!!! Will tell all my friends about this company !!\"<\/p>",
+            "title": "<p>Amazing company<br/><br/>\"I had some issues buying from a 3rd party .. decided to call salonpro instead and what a great idea that was !!! So helpful , really take pride in there product !! 1000% customer service !!!! Will tell all my friends about this company !!\"</p>",
             "link_label": "",
             "link": ""
           }
@@ -307,7 +304,7 @@
             "customer_name": "Jon Doe",
             "youtube_video": "",
             "star_rating": 5,
-            "title": "<p>Game changer<br\/><br\/>\"Absolutely the best. It cuts down on processing time on coloring. It is quiet and very easy to use. My clients think it's the neatest thing ever. I highly recommend.\"<\/p>",
+            "title": "<p>Game changer<br/><br/>\"Absolutely the best. It cuts down on processing time on coloring. It is quiet and very easy to use. My clients think it's the neatest thing ever. I highly recommend.\"</p>",
             "link_label": "",
             "link": ""
           }
